@@ -74,7 +74,8 @@ export default function ContactSection() {
             문의하기
           </h2>
           <p className="text-lg text-[#666666] leading-relaxed">
-            FairSysTech와 함께 디지털 신뢰성을 구현하세요.\n            언제든지 저희에게 연락주시면 성심껏 도와드리겠습니다.
+            FairSysTech는 고객의 가장 가까운 곳에서
+가장 전문적인 해답을 제시하고 함께합니다
           </p>
         </div>
 
