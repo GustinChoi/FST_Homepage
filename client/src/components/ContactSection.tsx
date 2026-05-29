@@ -41,17 +41,17 @@ export default function ContactSection() {
     {
       icon: Phone,
       label: '전화',
-      value: '+82-2-1234-5678',
+      value: '02-2038-8366',
     },
     {
       icon: Mail,
       label: '이메일',
-      value: 'contact@fairsystech.com',
+      value: 'csa@fairsystech.com',
     },
     {
       icon: MapPin,
       label: '주소',
-      value: '서울시 강남구 테헤란로 123, FairSysTech 빌딩',
+      value: '서울시 강서구 마곡동 799-9 마곡그랑타워 B동510호 / 강원도 춘천시 춘천로 188 211-A27호',
     },
   ];
 
