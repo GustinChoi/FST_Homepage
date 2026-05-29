@@ -52,7 +52,7 @@ export default function WorkSection() {
             </span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-[#1A1A1A] mb-6">
-            우리의 서비스
+            FairSysTech Services
           </h2>
           <p className="text-lg text-[#666666] leading-relaxed">
             FairSysTech는 네트워크 구축부터 보안, IT 솔루션까지 기업의 모든 기술 요구사항을 충족합니다.

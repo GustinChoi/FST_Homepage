@@ -72,7 +72,7 @@ export default function ContactSection() {
             </span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-[#1A1A1A] mb-6">
-            문의하기
+            Contact US
           </h2>
           <p className="text-lg text-[#666666] leading-relaxed">
             FairSysTech는 고객의 가장 가까운 곳에서
