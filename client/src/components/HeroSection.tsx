@@ -34,7 +34,7 @@ export default function HeroSection({ onCtaClick }: HeroSectionProps) {
           <div className="flex items-center gap-3 mb-6">
             <div className="w-12 h-1 bg-[#17B8A0]" />
             <span className="text-[#17B8A0] font-semibold text-sm md:text-base">
-              Innovation & Trust
+              Fair And Square
             </span>
           </div>
 
@@ -68,21 +68,21 @@ export default function HeroSection({ onCtaClick }: HeroSectionProps) {
           <div className="grid grid-cols-3 gap-8 mt-16 pt-8 border-t border-[#E0E0E0]">
             <div>
               <div className="text-3xl md:text-4xl font-bold text-[#17B8A0] mb-2">
-                500+
+                
               </div>
-              <p className="text-[#666666] text-sm">고객사</p>
+              <p className="text-[#666666] text-sm"></p>
             </div>
             <div>
               <div className="text-3xl md:text-4xl font-bold text-[#17B8A0] mb-2">
-                15+
+                
               </div>
-              <p className="text-[#666666] text-sm">년 경력</p>
+              <p className="text-[#666666] text-sm"></p>
             </div>
             <div>
               <div className="text-3xl md:text-4xl font-bold text-[#17B8A0] mb-2">
-                99.9%
+                
               </div>
-              <p className="text-[#666666] text-sm">가용성</p>
+              <p className="text-[#666666] text-sm"></p>
             </div>
           </div>
         </div>
