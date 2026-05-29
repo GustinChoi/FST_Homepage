@@ -1,5 +1,3 @@
- name: Deploy to GitHub Pages
-
 on:
   push:
     branches:
@@ -64,8 +62,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-         name: Clean up old artifacts
-  uses: geekyeggo/delete-artifact@v1
-  with:
-    name: github-pages
