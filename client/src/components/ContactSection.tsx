@@ -51,7 +51,7 @@ export default function ContactSection() {
     {
       icon: MapPin,
       label: '주소',
-      value: '서울시 강서구 마곡동 799-9 마곡그랑타워 B동510호 / 강원도 춘천시 춘천로 188 211-A27호',
+      value: '서울시 강서구 마곡동 799-9 마곡그랑타워 B동510호 <br> 강원도 춘천시 춘천로 188 211-A27호'</br>,
     },
   ];
 
