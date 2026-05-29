@@ -78,13 +78,13 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 text-sm text-gray-400">
               <li>
-                <a href="tel:+82212345678" className="hover:text-[#17B8A0] transition-colors">
-                  +82-2-1234-5678
+                <a href="tel:0220388366" className="hover:text-[#17B8A0] transition-colors">
+                  02-2038-8366
                 </a>
               </li>
               <li>
-                <a href="mailto:contact@fairsystech.com" className="hover:text-[#17B8A0] transition-colors">
-                  contact@fairsystech.com
+                <a href="mailto:csa@fairsystech.com" className="hover:text-[#17B8A0] transition-colors">
+                  csa@fairsystech.com
                 </a>
               </li>
               <li className="text-gray-500">
