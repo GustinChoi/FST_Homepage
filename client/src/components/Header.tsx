@@ -38,15 +38,12 @@ export default function Header({ onNavClick }: HeaderProps) {
     <header className="sticky top-0 z-50 bg-white border-b border-[#E0E0E0] shadow-sm">
       <div className="container flex items-center justify-between py-4 md:py-5">
         {/* Logo */}
-        <div className="flex items-center gap-2 flex-shrink-0">
+        <div className="flex items-center flex-shrink-0">
           <img
-            src="/manus-storage/fairsystech-logo_b3b601d5.png"
+            src="/manus-storage/horizontalCIen_3228d442.png"
             alt="FairSysTech Logo"
-            className="h-10 md:h-12 w-auto"
+            className="h-12 md:h-14 w-auto"
           />
-          <span className="hidden sm:inline text-lg md:text-xl font-bold text-[#1A1A1A]">
-            FairSysTech
-          </span>
         </div>
 
         {/* Desktop Navigation */}
