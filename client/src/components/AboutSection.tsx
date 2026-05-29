@@ -85,7 +85,7 @@ export default function AboutSection() {
         {/* Mission statement */}
         <div className="mt-16 md:mt-20 p-12 bg-gradient-to-r from-[#17B8A0] to-[#0FA38A] rounded-lg text-white">
           <h3 className="text-2xl md:text-3xl font-bold mb-4">
-            우리의 미션
+            약속합니다.
           </h3>
           <p className="text-lg leading-relaxed">
             문제 대응에 유연한 사고로 빠르게 대응하고 숙련된<br/>

@@ -1,4 +1,3 @@
-import { ExternalLink } from 'lucide-react';
 
 /**
  * Project Section - Case Studies & Portfolio
@@ -11,40 +10,40 @@ import { ExternalLink } from 'lucide-react';
 export default function ProjectSection() {
   const projects = [
     {
-      title: '금융 기관 네트워크 현대화',
-      category: '네트워크 구축',
-      description: '대형 금융 기관의 레거시 네트워크를 클라우드 기반 인프라로 전환하여 성능을 300% 향상시켰습니다.',
-      results: ['성능 300% 향상', '비용 40% 절감', '99.99% 가용성'],
+      title: 'SchoolNet 4단계 대응 교육청 및 직속기관 네트워크 구축',
+      category: '네트워크 보안',
+      description: '본청 및 직속기관 네트워크구축 및 중앙관리체계 수립',
+      results: ['각급 기관별 UTM 설치', '직속 공공도서관 통합홈페이지 서버 구축 및 솔루션 유지보수', '무선네트워크 증속 및 품질개선 사업'],
     },
     {
-      title: '엔터프라이즈 보안 시스템 구축',
+      title: 'DB암호화 및 DB접근제어 솔루션',
       category: '보안 솔루션',
-      description: '다층 보안 아키텍처를 설계하여 사이버 위협으로부터 기업을 보호하고 규정 준수를 달성했습니다.',
-      results: ['위협 탐지율 99.8%', '규정 준수 달성', '인시던트 0건'],
+      description: '재난상황 데이터 소실 대비 주기적 백업 스케줄 및 Tape 매체 소산',
+      results: ['Application 서버에 암복호화 API를 삽입하여 데이터 암복호화 수행', 'DB서버에 패키지, 엔진 등을 설치하여 데이터 암복호화 수행', 'OS 커널 레벨에서 정형/비정형 데이터 암복호화 수행'],
     },
     {
-      title: '디지털 트랜스포메이션 프로젝트',
+      title: '네트워크 현황 분석 및 장애포인트 체크',
       category: 'IT 솔루션',
-      description: '클라우드 마이그레이션과 애플리케이션 현대화를 통해 기업의 디지털 경쟁력을 강화했습니다.',
-      results: ['시간 50% 단축', '생산성 45% 증가', 'ROI 6개월'],
+      description: '네트워크와 서비스의 현황을 파악하고 문제점을 진단하며 해결방안 제시',
+      results: ['Network 서비스 진단', 'Network 장애 원인 추적', '장애 이슈해결을 위한 최적 방안 제시'],
     },
     {
-      title: '글로벌 네트워크 통합',
-      category: '네트워크 구축',
-      description: '다국적 기업의 분산된 네트워크를 통합하여 글로벌 협업을 가능하게 했습니다.',
-      results: ['통합 완료', '지연시간 60% 감소', '사용자 만족도 95%'],
+      title: '중소규모 생산시설 Network보안 구축',
+      category: '네트워크 보안',
+      description: '생산자동화 시설의 네트워크 공격 및 장애로 인한 생산량 저하 방지',
+      results: ['L2 보안스위치 설치 및 UTM 설치', '사무동, 생산동 스위치 및 패치 회선 점검 및 정리', '본, 지사간 VPN 구축으로 전용선 회선비용절감'],
     },
     {
-      title: '데이터 센터 보안 강화',
-      category: '보안 솔루션',
-      description: '물리적, 논리적 보안을 강화하여 데이터 센터의 안전성을 최고 수준으로 향상시켰습니다.',
-      results: ['보안 등급 A+', '감사 통과율 100%', '다운타임 0'],
+      title: '백업솔루션 도입 및 LTO 설치',
+      category: '백업 솔루션',
+      description: '재난상황 데이터 소실 대비 주기적 백업 스케줄 및 Tape 매체 소산',
+      results: ['주기적 DB데이터 백업으로 재난 상황대비', 'Tape 매체 최대압축 용량 48TB', '장애,재난에 의한 데이터 소실시 소산 데이터로 시스템 복구'],
     },
     {
-      title: 'AI 기반 모니터링 시스템',
+      title: '엔터프라이즈 IT 인프라 구축',
       category: 'IT 솔루션',
-      description: '인공지능 기반 모니터링 시스템으로 네트워크 이상을 사전에 감지하고 대응합니다.',
-      results: ['예측 정확도 98%', '대응 시간 70% 단축', '자동화율 85%'],
+      description: '기업의 핵심 IT 인프라를 설계하고 구축하여 안정적인 운영 환경을 제공합니다.',
+      results: ['시스템 가용성 99.9% 이상', '운영 비용 30% 절감', '관리 효율성 50% 증대'],
     },
   ];
 
@@ -65,15 +64,15 @@ export default function ProjectSection() {
         {/* Section header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
           <div className="inline-block mb-4">
-            <span className="px-4 py-2 bg-[#17B8A0]/10 text-[#17B8A0] rounded-full text-sm font-semibold">
-              Portfolio
+            <span className="px-4 py-2 bg-[#17B8A0]/10 text-[#17B8A0] rounded-full text-sm font-semibold" style={{fontSize: '20px', fontWeight: '800'}}>
+              Project
             </span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-[#1A1A1A] mb-6">
-            우리의 프로젝트
+            FairSysTech Project
           </h2>
           <p className="text-lg text-[#666666] leading-relaxed">
-            다양한 산업과 규모의 기업들과 함께 성공적인 프로젝트를 진행해왔습니다.\n            실제 사례를 통해 우리의 역량을 확인하세요.
+            다양한 산업과 규모의 기업들과 함께 성공적인 프로젝트를 진행해왔습니다. 실제 사례를 통해 우리의 역량을 확인하세요.
           </p>
         </div>
 
@@ -114,7 +113,7 @@ export default function ProjectSection() {
               {/* CTA */}
               <button className="flex items-center gap-2 text-[#17B8A0] font-semibold hover:gap-3 transition-all group/btn">
                 자세히 보기
-                <ExternalLink className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
+                <span className="group-hover/btn:translate-x-1 transition-transform">→</span>
               </button>
             </div>
           ))}
