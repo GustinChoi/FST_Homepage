@@ -46,16 +46,17 @@ export default function AboutSection() {
         {/* Section header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
           <div className="inline-block mb-4">
-            <span className="px-4 py-2 bg-[#17B8A0]/10 text-[#17B8A0] rounded-full text-sm font-semibold">
-              About Us
+            <span className="px-4 py-2 bg-[#17B8A0]/10 text-[#17B8A0] rounded-full text-sm font-semibold" style={{fontSize: '20px', fontWeight: '800'}}>
+              About
             </span>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-[#1A1A1A] mb-6">
-            FairSysTech에 대해
+            About FairSysTech
           </h2>
           <p className="text-lg text-[#666666] leading-relaxed">
-            우리는 기업의 디지털 신뢰성을 구현하기 위해 네트워크 구축, 보안, IT 솔루션을 제공하는 전문 기업입니다.
-            15년 이상의 경험으로 500개 이상의 고객사를 성공적으로 지원해왔습니다.
+            단순한 IT 지원을 넘어 기업의 생존과 성장을 결정짓는 핵심 동력을 설계합니다.<br/>
+            Fairsystech(페어시스텍)은 투명한 기술 원칙(Fair)과 고도화된 아키텍처(System)를<br/>
+            바탕으로 고객사의 디지털 전환을 완벽하게 지원하는 IT 인프라 전문 기업입니다
           </p>
         </div>
 
@@ -87,8 +88,9 @@ export default function AboutSection() {
             우리의 미션
           </h3>
           <p className="text-lg leading-relaxed">
-            기술의 힘으로 기업의 성장을 가속화하고, 안전한 디지털 환경을 구축하여
-            고객의 비즈니스 목표 달성을 지원합니다.
+            문제 대응에 유연한 사고로 빠르게 대응하고 숙련된<br/>
+            기술로 가장 안정적인 결과물을 만들어 귀사의 비즈니스의<br/>
+            곁을 지키는 기술 파트너가 되겠습니다
           </p>
         </div>
       </div>
