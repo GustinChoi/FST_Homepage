@@ -39,9 +39,9 @@ export default function Header({ onNavClick }: HeaderProps) {
       <div className="container flex items-center justify-between py-4 md:py-5">
         {/* Logo */}
         <div className="flex items-center flex-shrink-0">
-            <img 
-            src="/FST_Homepage/horizontalCI.png" 
-            alt="FairSysTech Logo" />
+          <img
+            src="/manus-storage/horizontalCI_fec4bffb.png"
+            alt="FairSysTech Logo"
             className="h-12 md:h-14 w-auto"
           />
         </div>
