@@ -1,13 +1,13 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
-import { Route } from "wouter";
+import { Route, Router, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 
 
-function Router() {
+function Routes() {
   return (
     <Switch>
       <Route path={"/"} component={Home} />
@@ -31,18 +31,14 @@ function App() {
         // switchable
       >
         <TooltipProvider>
-          <Toaster />
-          <Router />
+          <Router base="/FST_Homepage/">
+            <Toaster />
+            <Routes />
+          </Router>
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
   );
 }
 
-export default function App() {
-  return (
-    <Router base="/FST_Homepage/">
-      {/* 기존 라우트 유지 */}
-    </Router>
-  )
-}
+export default App;
