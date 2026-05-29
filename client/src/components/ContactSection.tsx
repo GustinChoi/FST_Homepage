@@ -69,7 +69,8 @@ export default function ContactSection() {
           <div className="inline-block mb-4">
             <span className="px-4 py-2 bg-[#17B8A0]/10 text-[#17B8A0] rounded-full text-sm font-semibold">
               Contact
-            </span>\n          </div>
+            </span>
+          </div>
           <h2 className="text-4xl md:text-5xl font-bold text-[#1A1A1A] mb-6">
             문의하기
           </h2>
