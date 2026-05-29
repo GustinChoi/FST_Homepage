@@ -40,7 +40,7 @@ export default function Header({ onNavClick }: HeaderProps) {
         {/* Logo */}
         <div className="flex items-center flex-shrink-0">
           <img
-            src="/manus-storage/horizontalCI_fec4bffb.png"
+            src="/horizontalCI.png"
             alt="FairSysTech Logo"
             className="h-12 md:h-14 w-auto"
           />
