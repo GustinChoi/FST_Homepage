@@ -40,10 +40,10 @@ export default function Header({ onNavClick }: HeaderProps) {
         {/* Logo */}
         <div className="flex items-center flex-shrink-0">
           <img
-            src="/horizontalCI.png"
-            alt="FairSysTech Logo"
-            className="h-12 md:h-14 w-auto"
-          />
+  src="/FST_Homepage/horizontalCI.png"
+  alt="FairSysTech Logo"
+  className="h-12 md:h-14 w-auto"
+/>
         </div>
 
         {/* Desktop Navigation */}
