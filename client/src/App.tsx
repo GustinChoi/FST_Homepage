@@ -31,7 +31,7 @@ function App() {
         // switchable
       >
         <TooltipProvider>
-          <Router base="/FST_Homepage/">
+          <Router base="/">
             <Toaster />
             <Routes />
           </Router>
