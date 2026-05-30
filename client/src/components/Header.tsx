@@ -34,6 +34,7 @@ export default function Header({ onNavClick }: HeaderProps) {
     element?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  // ✅ 이 함수를 반드시 추가하세요!
   const handleLogoClick = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
