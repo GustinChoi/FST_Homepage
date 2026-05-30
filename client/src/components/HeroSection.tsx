@@ -59,9 +59,16 @@ export default function HeroSection({ onCtaClick }: HeroSectionProps) {
               시작하기
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
-            <button className="px-8 py-3 rounded-lg border-2 border-[#1A1A1A] text-[#1A1A1A] hover:bg-[#F5F5F5] transition-colors font-semibold">
-              더 알아보기
-            </button>
+            <a
+  href="#project"
+  onClick={(e) => {
+    e.preventDefault();
+    document.getElementById('project')?.scrollIntoView({ behavior: 'smooth' });
+  }}
+  className="px-8 py-3 rounded-lg border-2 border-[#1A1A1A] text-[#1A1A1A] hover:bg-[#F5F5F5] transition-colors font-semibold inline-block cursor-pointer"
+>
+  더 알아보기
+</a>
           </div>
 
           {/* Stats */}
