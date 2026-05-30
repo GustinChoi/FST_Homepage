@@ -34,20 +34,24 @@ export default function Header({ onNavClick }: HeaderProps) {
     element?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  const handleLogoClick = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-[#E0E0E0] shadow-sm">
       <div className="container flex items-center justify-between py-4 md:py-5">
         {/* Logo */}
         <button
-  onClick={handleLogoClick}
-  className="flex items-center flex-shrink-0 hover:opacity-80 transition-opacity cursor-pointer"
->
-  <img
-    src="/horizontalCI.png"
-    alt="FairSysTech Logo"
-    className="h-12 md:h-14 w-auto"
-  />
-</button>
+          onClick={handleLogoClick}
+          className="flex items-center flex-shrink-0 hover:opacity-80 transition-opacity cursor-pointer"
+        >
+          <img
+            src="/horizontalCI.png"
+            alt="FairSysTech Logo"
+            className="h-12 md:h-14 w-auto"
+          />
+        </button>
 
         {/* Desktop Navigation */}
         {!isMobile && (
