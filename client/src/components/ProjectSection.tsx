@@ -18,7 +18,26 @@ export default function ProjectSection() {
     {
       title: 'DB암호화 및 DB접근제어 솔루션',
       category: '보안 솔루션',
-      description: '재난상황 데이터 소실 대비 주기적 백업 스케줄 및 Tape 매체 소산',
+      description: 'DB탈취,해킹방지 및 비인가 DB접근 방지 솔루션/**
+ * Project Section - Case Studies & Portfolio
+ * Design: Modern Minimalism with Tech Sophistication
+ * - Project cards with descriptions
+ * - Turquoise accent elements
+ * - Asymmetric layout for visual interest
+ */
+
+export default function ProjectSection() {
+  const projects = [
+    {
+      title: 'SchoolNet 4단계 대응 교육청 및 직속기관 네트워크 구축',
+      category: '네트워크 보안',
+      description: '본청 및 직속기관 네트워크구축 및 중앙관리체계 수립',
+      results: ['각급 기관별 UTM 설치', '직속 공공도서관 통합홈페이지 서버 구축 및 솔루션 유지보수', '무선네트워크 증속 및 품질개선 사업'],
+    },
+    {
+      title: 'DB암호화 및 DB접근제어 솔루션',
+      category: '보안 솔루션',
+      description: 'DB탈취,해킹방지 및 비인가 DB접근 방지 솔루션',
       results: ['Application 서버에 암복호화 API를 삽입하여 데이터 암복호화 수행', 'DB서버에 패키지, 엔진 등을 설치하여 데이터 암복호화 수행', 'OS 커널 레벨에서 정형/비정형 데이터 암복호화 수행'],
     },
     {
