@@ -18,7 +18,7 @@ export default function HeroSection({ onCtaClick }: HeroSectionProps) {
     <section
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
       style={{
-        backgroundImage: 'url(https://d2xsxph8kpxj0f.cloudfront.net/310519663652149162/GRC4GZYyRNRk6HVHpMvTJ8/hero-bg-Ly4GZK3pLi4rMBPvVqvEgU.webp)',
+        backgroundImage: "url('/images/hero-bg.png')",
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed',
